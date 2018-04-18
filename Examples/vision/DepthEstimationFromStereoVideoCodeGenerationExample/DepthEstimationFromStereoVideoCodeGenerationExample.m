@@ -107,7 +107,7 @@ codegen depthEstimationFromStereoVideo_kernel -args compileTimeInputs;
 depthEstimationFromStereoVideo_kernel_mex(stereoParamsStruct);
 
 %% Clean Up
-clear depthEstimationFromStereoVideo_kernel_mex;
+% clear depthEstimationFromStereoVideo_kernel_mex;
 
 %% Summary
 % This example showed how to generate C code from MATLAB code that takes
